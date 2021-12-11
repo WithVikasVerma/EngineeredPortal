@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/dd96c0cf58.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="index.js"></script>
+    <title>Engineering Portal</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  </head>
+  <body id="bd">
+
+
+    <!-- this is the navbar section -->
+    <nav class="navbar navbar-expand-lg fixed-top shadow-lg p-3 mb-5 rounded navbar-light bg-dark" style="height: var(--header-height); font-size: 20px;">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="btn btn-outline-warning" href="#items" role="button">Home</a>
+
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-outline-warning" href="#aboutme" role="button">About Us</a>
+
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-outline-warning" href="#contactme" role="button">Contact Us</a>
+
+            </li>
+            <li class="nav-item ">
+              <a class="btn btn-outline-warning" href="feedback.html" role="button">Feedback</a>
+
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item ">
+              <a class="btn btn-outline-warning" href="visitor.html" role="button">Visitor's Portal</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<br>
+</br>
+<!-- navbar ends -->
+<!-- landing page step -->
+<div id="items">
+  <h1  id="landing" >Welcome to Engineering Portal</h1>
+  <img src="logo.jpg" id="logo" alt="image">
+</div>
+<div class="sec">
+  <h3>Discover Your Needs.</h3>
+</div>
+<br>
+<br>
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+<h1 style="color: white; 
+display: flex;
+justify-content: center;
+font-family: monospace; ">Teacher's Services</h1>
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+<div class="container-md" >
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <!-- #1  -->
+  <div class="col" >
+    <div class="card h-100 bg-dark " style="color: aliceblue; border-radius: 40px;" >
+      <!-- this is on :hover effect definition -->
+    
+      <a href="#">
+      <img  src="teacher.jpg" class="card-img-top" style="border-radius: 40px; border-top-left-radius: 0px;" alt="teacher images">
+    </a>
+      <div class="card-body">
+        <div class="tool">
+          <!-- Button trigger modal -->
+          <!-- first btn  -->
+          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal1" style="border-top-left-radius: 0%;">
+           Teachers
+         </button>
+         <!-- second btn  -->
+         <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal2" style=" margin-top: 5px;">
+          Their Names
+        </button>
+        <!-- third btn  -->
+        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal3" style=" margin-top: 5px;">
+          Professions
+        </button>
+   
+   <!-- Modal one -->
+   <div class="modal " id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+      <div class="modal-dialog" style="color: black;">
+        <div class="modal-content">
+           <div class="modal-header">
+             <h5 class="modal-title" id="exampleModalLabel1">Total Teachers</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+           </div>
+           <div class="modal-body">
+             <h3 style="color: black;">There are 245</h3>
+               
+           </div>
+           <div class="modal-footer">
+             <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+           </div>
+        </div>
+      </div>
+   </div>
+   <!-- Modal two -->
+   <div class="modal " id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+    <div class="modal-dialog" style="color: black;">
+      <div class="modal-content">
+         <div class="modal-header">
+           <h5 class="modal-title" id="exampleModalLabel2">Their Names</h5>
+             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+           
+           <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p>
+         </div>
+         <div class="modal-footer">
+           <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+         </div>
+      </div>
+    </div>
+ </div>
+ <!-- Modal three -->
+ <div class="modal " id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+  <div class="modal-dialog" style="color: black;">
+    <div class="modal-content">
+       <div class="modal-header">
+         <h5 class="modal-title" id="exampleModalLabel3">Modal title</h5>
+           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <h5>Popover in a modal</h5>
+           <p>This <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button> triggers a popover on click.</p>
+         <hr>
+         <h5>Tooltips in a modal</h5>
+         <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       </div>
+    </div>
+  </div>
+</div>
+  </div>
+        <a href="#" class="card-title"  style="background-color: rgb(236, 215, 97); 
+        border-radius: 10px;
+        border-top-left-radius: 0%;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-weight:700;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        margin-left: 0px;
+        margin-right: 100px;
+        ">No. of Teachers</a>
+        <p class="lead">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <!-- #2  -->
+  <div class="col">
+    <div class="card h-100 bg-dark" style="color: aliceblue; border-radius: 40px;">
+      <a href="#">
+      <img src="report.jpg" class="card-img-top" style="border-radius: 40px; border-top-left-radius: 0px;" alt="...">
+    </a>
+      <div class="card-body">
+        <div class="tool">
+          <!-- Button trigger modal -->
+          <!-- first btn  -->
+          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal4" style="border-top-left-radius: 0%;">
+           Today's Schedule
+         </button>
+         <!-- second btn  -->
+         <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal5" style=" margin-top: 5px;">
+          Student Attendence
+        </button>
+        <!-- third btn  -->
+        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal6" style=" margin-top: 5px;">
+          Teacher Attendence
+        </button>
+   
+   <!-- Modal one -->
+   <div class="modal " id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+      <div class="modal-dialog" style="color: black;">
+        <div class="modal-content">
+           <div class="modal-header">
+             <h5 class="modal-title" id="exampleModalLabel4">Names</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+           </div>
+           <div class="modal-body">
+             <h5>Popover in a modal</h5>
+               <p>This <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button> triggers a popover on click.</p>
+             <hr>
+             <h5>Tooltips in a modal</h5>
+             <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p>
+           </div>
+           <div class="modal-footer">
+             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+           </div>
+        </div>
+      </div>
+   </div>
+   <!-- Modal two -->
+   <div class="modal " id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel5" aria-hidden="true">
+    <div class="modal-dialog" style="color: black;">
+      <div class="modal-content">
+         <div class="modal-header">
+           <h5 class="modal-title" id="exampleModalLabel5">theirnames</h5>
+             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+           <h5>Popover in a modal</h5>
+             <p>This <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button> triggers a popover on click.</p>
+           <hr>
+           <h5>Tooltips in a modal</h5>
+           <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p>
+         </div>
+         <div class="modal-footer">
+           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+         </div>
+      </div>
+    </div>
+ </div>
+ <!-- Modal three -->
+ <div class="modal " id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel6" aria-hidden="true">
+  <div class="modal-dialog" style="color: black;">
+    <div class="modal-content">
+       <div class="modal-header">
+         <h5 class="modal-title" id="exampleModalLabel6">Modal title</h5>
+           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <h5>Popover in a modal</h5>
+           <p>This <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button> triggers a popover on click.</p>
+         <hr>
+         <h5>Tooltips in a modal</h5>
+         <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       </div>
+    </div>
+  </div>
+</div>
+  </div>
+        <a href="#" class="card-title" style="background-color: rgb(236, 215, 97); 
+        border-radius: 10px;
+        border-top-left-radius: 0%;
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        color: black;
+        font-weight:700;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        margin-left: 0px;
+        margin-right: 150px;
+        ">Daily Reports</a>
+        <p class="lead">This is a short card.</p>
+      </div>
+    </div>
+  </div>
+  <!-- #3  -->
+  <div class="col">
+    <div class="card h-100 bg-dark" style="color: aliceblue; border-radius: 40px;">
+      <a href="#">
+      <img src="branch.jpg" class="card-img-top" style="border-radius: 40px; border-top-left-radius: 0px;" alt="...">
+      </a>
+      <div class="card-body" >
+        <div class="tool">
+          <!-- Button trigger modal -->
+          <!-- first btn  -->
+          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal7" style="border-top-left-radius: 0%;">
+           Only accesseble for Authorised Person
+         </button>
+   <!-- Modal one -->
+   <div class="modal " id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel7" aria-hidden="true">
+      <div class="modal-dialog" style="color: black;">
+        <div class="modal-content">
+           <div class="modal-header">
+             <h5 class="modal-title" id="exampleModalLabel7">Names</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+           </div>
+           <div class="modal-body">
+             <h5>Popover in a modal</h5>
+               <p>This <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button> triggers a popover on click.</p>
+             <hr>
+             <h5>Tooltips in a modal</h5>
+             <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p>
+           </div>
+           <div class="modal-footer">
+             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+           </div>
+        </div>
+      </div>
+   </div>
+   
+  </div>
+        <a href="#" class="card-title" style="background-color: rgb(236, 215, 97); 
+        border-radius: 10px;
+        border-top-left-radius: 0%;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+        font-weight:700;
+        /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        margin-left: 0px;
+        margin-right: 100px;
+        padding-left: 10px;
+        ">No. of students in B.Tech Branch</a>
+        <p class="lead">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <!-- #4  -->
+  <div class="col">
+    <div class="card h-100 bg-dark" style="color: aliceblue; border-radius: 40px;">
+      <a href="#">
+      <img src="board.jpg" class="card-img-top" style="border-radius: 40px; border-top-left-radius: 0px;" alt="...">
+      </a>
+      <div class="card-body">
+        <div class="tool">
+          <!-- Button trigger modal -->
+          <!-- first btn  -->
+          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal8" style="border-top-left-radius: 0%;">
+           For B.tech
+         </button>
+         <!-- second btn  -->
+         <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal9" style=" margin-top: 5px;">
+          For B.Ed
+        </button>
+        <!-- third btn  -->
+        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal10" style=" margin-top: 5px;">
+          For M.tech
+        </button>
+   
+   <!-- Modal one -->
+   <div class="modal " id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel8" aria-hidden="true">
+      <div class="modal-dialog" style="color: black;">
+        <div class="modal-content">
+           <div class="modal-header">
+             <h5 class="modal-title" id="exampleModalLabel8">Names</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+           </div>
+           <div class="modal-body">
+             <h5>Popover in a modal</h5>
+               <p>This <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button> triggers a popover on click.</p>
+             <hr>
+             <h5>Tooltips in a modal</h5>
+             <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p>
+           </div>
+           <div class="modal-footer">
+             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+           </div>
+        </div>
+      </div>
+   </div>
+   <!-- Modal two -->
+   <div class="modal " id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel9" aria-hidden="true">
+    <div class="modal-dialog" style="color: black;">
+      <div class="modal-content">
+         <div class="modal-header">
+           <h5 class="modal-title" id="exampleModalLabel9">theirnames</h5>
+             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+           <h5>Popover in a modal</h5>
+             <p>This <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button> triggers a popover on click.</p>
+           <hr>
+           <h5>Tooltips in a modal</h5>
+           <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p>
+         </div>
+         <div class="modal-footer">
+           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+         </div>
+      </div>
+    </div>
+ </div>
+ <!-- Modal three -->
+ <div class="modal " id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel10" aria-hidden="true">
+  <div class="modal-dialog" style="color: black;">
+    <div class="modal-content">
+       <div class="modal-header">
+         <h5 class="modal-title" id="exampleModalLabel10">Modal title</h5>
+           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <h5>Popover in a modal</h5>
+           <p>This <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button> triggers a popover on click.</p>
+         <hr>
+         <h5>Tooltips in a modal</h5>
+         <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       </div>
+    </div>
+  </div>
+</div>
+  </div>
+        <a href="#" class="card-title" style="background-color: rgb(236, 215, 97); 
+        border-radius: 10px;
+        border-top-left-radius: 0%;
+        display: flex;
+        text-decoration: none;
+        justify-content: center;
+        color: black;
+        font-weight:700;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+        font-size: 20px;
+        margin-left: 0px;
+        margin-right: 100px;
+        padding-left: 10px;
+        ">Display/Publish Notification</a>
+        <p class="lead">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  <br>
+  
+  <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+  <h1 style="color: white; 
+  display: flex;
+  justify-content: center;
+  font-family: monospace; ">Student's Services</h1>
+  <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+<div class="container" >
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <!-- #5  -->
+  <div class="col">
+    <div class="card h-100 bg-dark" style="color: aliceblue; border-radius: 40px;">
+      <a href="#">
+      <img src="student.jpg" class="card-img-top" style="border-radius: 40px; border-top-left-radius: 0px;" alt="...">
+      </a>
+      <div class="card-body">
+        <div class="tool">
+          <!-- Button trigger modal -->
+          <!-- first btn  -->
+          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal11" style="border-top-left-radius: 0%;">
+           Their Names
+         </button>
+         <!-- second btn  -->
+         <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal12" style=" margin-top: 5px;">
+          Roll No.
+        </button>
+        <!-- third btn  -->
+        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal13" style=" margin-top: 5px;">
+          Branch
+        </button>
+   
+   <!-- Modal one -->
+   <div class="modal " id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel11" aria-hidden="true">
+      <div class="modal-dialog" style="color: black;">
+        <div class="modal-content">
+           <div class="modal-header">
+             <h5 class="modal-title" id="exampleModalLabel11">Names</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+           </div>
+           <div class="modal-body">
+             <h5>Popover in a modal</h5>
+               <p>This <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button> triggers a popover on click.</p>
+             <hr>
+             <h5>Tooltips in a modal</h5>
+             <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p>
+           </div>
+           <div class="modal-footer">
+             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+           </div>
+        </div>
+      </div>
+   </div>
+   <!-- Modal two -->
+   <div class="modal " id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel12" aria-hidden="true">
+    <div class="modal-dialog" style="color: black;">
+      <div class="modal-content">
+         <div class="modal-header">
+           <h5 class="modal-title" id="exampleModalLabel12">theirnames</h5>
+             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+           <h5>Popover in a modal</h5>
+             <p>This <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button> triggers a popover on click.</p>
+           <hr>
+           <h5>Tooltips in a modal</h5>
+           <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p>
+         </div>
+         <div class="modal-footer">
+           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+         </div>
+      </div>
+    </div>
+ </div>
+ <!-- Modal three -->
+ <div class="modal " id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel13" aria-hidden="true">
+  <div class="modal-dialog" style="color: black;">
+    <div class="modal-content">
+       <div class="modal-header">
+         <h5 class="modal-title" id="exampleModalLabel13">Modal title</h5>
+           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <h5>Popover in a modal</h5>
+           <p>This <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button> triggers a popover on click.</p>
+         <hr>
+         <h5>Tooltips in a modal</h5>
+         <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       </div>
+    </div>
+  </div>
+</div>
+  </div>
+        <a href="#" class="card-title" style="background-color: rgb(236, 215, 97); 
+        border-radius: 10px;
+        text-decoration: none;
+        border-top-left-radius: 0%;
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-weight:700;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+        font-size: 20px;
+        margin-left: 0px;
+        margin-right: 100px;
+        padding-left: 10px;
+        ">Total No. of students</a>
+        <p class="lead">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <!-- #6  -->
+  <div class="col">
+    <div class="card h-100 bg-dark" style="color: aliceblue; border-radius: 40px;">
+      <a href="#">
+      <img src="service.jpg" class="card-img-top" style="border-radius: 40px; border-top-left-radius: 0px;" alt="...">
+      </a>
+      <div class="card-body">
+        <div class="tool">
+          <!-- Button trigger modal -->
+          <!-- first btn  -->
+          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal14" style="border-top-left-radius: 0%;">
+           Join Live Class
+         </button>
+         <!-- second btn  -->
+         <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal15" style=" margin-top: 5px;">
+          Download Time Table 
+        </button>
+        <!-- third btn  -->
+        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal16" style=" margin-top: 5px;">
+          Ask a douat 
+        </button>
+        <!-- fourth btn  -->
+        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal17" style=" margin-top: 5px;">
+          Upload Midsem AnswerSheet
+        </button>
+   
+   <!-- Modal one -->
+   <div class="modal " id="exampleModal14" tabindex="-1" aria-labelledby="exampleModalLabel14" aria-hidden="true">
+      <div class="modal-dialog" style="color: black;">
+        <div class="modal-content">
+           <div class="modal-header">
+             <h5 class="modal-title" id="exampleModalLabel14">Names</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+           </div>
+           <div class="modal-body">
+             <h5>Popover in a modal</h5>
+               <p>This <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button> triggers a popover on click.</p>
+             <hr>
+             <h5>Tooltips in a modal</h5>
+             <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p>
+           </div>
+           <div class="modal-footer">
+             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+           </div>
+        </div>
+      </div>
+   </div>
+   <!-- Modal two -->
+   <div class="modal " id="exampleModal15" tabindex="-1" aria-labelledby="exampleModalLabel15" aria-hidden="true">
+    <div class="modal-dialog" style="color: black;">
+      <div class="modal-content">
+         <div class="modal-header">
+           <h5 class="modal-title" id="exampleModalLabel15">theirnames</h5>
+             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+           <h5>Popover in a modal</h5>
+             <p>This <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button> triggers a popover on click.</p>
+           <hr>
+           <h5>Tooltips in a modal</h5>
+           <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p>
+         </div>
+         <div class="modal-footer">
+           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+         </div>
+      </div>
+    </div>
+ </div>
+ <!-- Modal three -->
+ <div class="modal " id="exampleModal16" tabindex="-1" aria-labelledby="exampleModalLabel16" aria-hidden="true">
+  <div class="modal-dialog" style="color: black;">
+    <div class="modal-content">
+       <div class="modal-header">
+         <h5 class="modal-title" id="exampleModalLabel16">Modal title</h5>
+           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <h5>Popover in a modal</h5>
+           <p>This <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button> triggers a popover on click.</p>
+         <hr>
+         <h5>Tooltips in a modal</h5>
+         <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       </div>
+    </div>
+  </div>
+</div>
+<!-- Modal four -->
+<div class="modal " id="exampleModal17" tabindex="-1" aria-labelledby="exampleModalLabel17" aria-hidden="true">
+  <div class="modal-dialog" style="color: black;">
+    <div class="modal-content">
+       <div class="modal-header">
+         <h5 class="modal-title" id="exampleModalLabel17">Modal title</h5>
+           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <h5>Popover in a modal</h5>
+           <p>This <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button> triggers a popover on click.</p>
+         <hr>
+         <h5>Tooltips in a modal</h5>
+         <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       </div>
+    </div>
+  </div>
+</div>
+  </div>
+        <a href="#" class="card-title" style="background-color: rgb(236, 215, 97); 
+        border-radius: 10px;
+        text-decoration: none;
+        border-top-left-radius: 0%;
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-weight:700;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+        font-size: 20px;
+        margin-left: 0px;
+        margin-right: 100px;
+        ">Online Service</a>
+        <p class="lead">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <!-- #7  -->
+  <div class="col">
+    <div class="card h-100 bg-dark" style="color: aliceblue; border-radius: 40px;">
+      <img src="chat.jpg" class="card-img-top" style="border-radius: 40px; border-top-left-radius: 0px;" alt="...">
+      </a>
+      <div class="card-body">
+        <div class="tool">
+          <!-- Button trigger modal -->
+          <!-- first btn  -->
+          <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal18" style="border-top-left-radius: 0%;">
+           Enter Your Chat code
+         </button>
+   <!-- Modal one -->
+   <div class="modal " id="exampleModal18" tabindex="-1" aria-labelledby="exampleModalLabel18" aria-hidden="true">
+      <div class="modal-dialog" style="color: black;">
+        <div class="modal-content">
+           <div class="modal-header">
+             <h5 class="modal-title" id="exampleModalLabel18">Names</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+           </div>
+           <div class="modal-body">
+             <h5>Popover in a modal</h5>
+               <p>This <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button> triggers a popover on click.</p>
+             <hr>
+             <h5>Tooltips in a modal</h5>
+             <p><a href="#" class="tooltip-test" title="Tooltip">This link</a> and <a href="#" class="tooltip-test" title="Tooltip">that link</a> have tooltips on hover.</p>
+           </div>
+           <div class="modal-footer">
+             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+           </div>
+        </div>
+      </div>
+   </div>
+  </div>
+        <a href="#" class="card-title" style="background-color: rgb(236, 215, 97); 
+        border-radius: 10px;
+        text-decoration: none;
+        border-top-left-radius: 0%;
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-weight:700;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+        font-size: 20px;
+        margin-left: 0px;
+        margin-right: 100px;
+        ">Chat With Student</a>
+        <p class="lead">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+<!-- sencond ending -->
+
+<div class="container">
+  <h1 id="aboutme" style="background-color:rgb(236, 215, 97);
+  margin-right: 700px;
+  margin-left: 0px;
+  height: 100px;
+  padding-top: 25px;
+  padding-left: 100px;
+  font-size: 40px;
+  border-radius: 20px;
+  white-space: nowrap;
+  ">About Us </h1>
+  
+  <h2  id="para"style="color: aliceblue; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+    <div class="bubble">
+      <!-- <img src="profile.jpg" alt="profile pic" id="pro"> -->
+    </div>
+    <div>
+    
+    <p class="seconddiv ">
+      We are the people with no extraordinary talent in IT sector therefore we maded this type of 
+      problem solving website because considering the current situation students & teachers are facing 
+      lack of communication with each other in terms of giving them oppertunities and other helpful
+      assistence. Thereafter we came to a conclusion why not to do this. We Thank you for your interest
+      in reading this page.<p class="seconddiv"id="para2">Have a nice life.</p> 
+    </p>
+  </div>
+  </h2>
+</div>
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+<h1 id="contactme"style="background-color:rgb(236, 215, 97);
+margin-right: 810px;
+margin-left: 115px;
+height: 100px;
+padding-top: 25px;
+padding-left: 100px;
+font-size: 40px;
+border-radius: 20px;
+white-space: nowrap;
+">Contact Us</h1>
+<div class="container">
+ <div class="feedbackform" >
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">India</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Send">
+
+  </form>
+</div>
+</div>
+<br>
+   <footer class="bg-dark text-white pt-5 pb-4" id="red">
+      <div class="container text-center text-md-left">
+          <div class="row text-center text-md-left">
+            <div class="col-md-3 col-lg-3 col-x1-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold" id="hed">Engineering Portal</h5>
+              <p id="top1">Engineering Portal is widly known for it's Never Give Up technology(NGU) in which people can not just work from home but also they can interect with each other using P2P communication gateway.</p>
+            </div>
+             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+               <h5 class="text-uppercase mb-4 font-weight-bold " id="hed">to be noted</h5>
+               <p id="top1">
+                 <a href="#" id="link" class="text-white" >CloudProject</a>
+               </p>
+               <p id="top1">
+                <a href="#" id="link"class="text-white" >Features</a>
+              </p><p id="top1">
+                <a href="#" id="link"class="text-white" >Future Aims</a>
+              </p><p id="top1">
+                <a href="#" id="link"class="text-white" >Resources</a>
+              </p>
+             </div>
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold" id="hed">associates</h5>
+                <p id="top1">
+                  <a href="#" id="link" class="text-white" >SiteWroks</a>
+                </p>
+                <p id="top1">
+                 <a href="#" id="link" class="text-white" >Mr.Harshit Singh</a>
+               </p><p id="top1">
+                 <a href="#"  id="link" class="text-white" >Ashish Rajauriya</a> 
+               </p><p id="top1">
+                 <a href="#" id="link" class="text-white" >Tax office</a>
+                </p>
+              </div>
+              <div class="col-md-4 col=lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold" id="hed" >Contact</h5>
+                  <p id="top1">
+                    <i class="fas fa-home"></i> Bhopal Abu dabi Nehru nagar
+                  </p>
+                  <p id="top1">
+                    <i class="fas fa-envelope mr-3"></i>  vikasverma9278@gmail.com
+                  </p><p id="top1">
+                    <i class="fas fa-phone mr-3"></i>  7000737547
+                  </p><p id="top1">
+                    <i class="fas fa-print mr-3"></i>  Fax id-2092
+                  </p>
+              </div>
+          </div>
+        </div>
+      </footer>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+      <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+      </script>
+  </body>
+</html>
