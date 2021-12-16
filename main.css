@@ -438,6 +438,11 @@ input[type=submit]:hover {
   z-index: 9;
   margin: 0px;
  }
+    
+ #para{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
  
  
 }
